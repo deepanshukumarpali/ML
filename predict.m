@@ -1,3 +1,3 @@
-function ans=predict(details,x,y),
-ans=[1 details]*normal(x,y);
+function ans=predict(details,x,y,theta),
+ans=[1 details]*theta);
 end;
